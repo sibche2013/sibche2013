@@ -9,7 +9,7 @@
 ---
 
 ## <!-- پرچم انگلیسی -->
-![](https://img.shields.io/badge/Language-English-blue?style=flat&logo=github) About Me (English)
+![](https://img.shields.io/badge/Language-English-blue?style=flat&logo=github) ## <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/us.svg" width="20" height="20"> About Me (English)
 
 **Senior Web Developer (PHP & WordPress) | Webmaster | Entry-Level Network Support** 📍 *15+ years of experience | Open to remote work and freelance projects*
 
