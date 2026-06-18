@@ -8,7 +8,8 @@
 
 ---
 
-## 🇺🇸 About Me (English)
+## <!-- پرچم انگلیسی -->
+![](https://img.shields.io/badge/Language-English-blue?style=flat&logo=github) About Me (English)
 
 **Senior Web Developer (PHP & WordPress) | Webmaster | Entry-Level Network Support** 📍 *15+ years of experience | Open to remote work and freelance projects*
 
