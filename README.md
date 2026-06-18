@@ -1,10 +1,11 @@
 # 👋 Hi there, I'm Amin Arjmand / سلام، من امین ارجمند هستم
 
 <p align="center">
-  <a href="https://demo.aminarjmand.com">
+  <a target="_blank" href="https://demo.aminarjmand.com">
     <img src="https://img.shields.io/badge/%20Website-aminarjmand.com-green?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
-  <a href="https://demo.aminarjmand.com/sibche2013/">
+  <hr>
+  <a target="_blank" href="https://demo.aminarjmand.com/sibche2013/">
     <img src="https://img.shields.io/badge/%20Index-aminarjmand.com-purple?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
 </p>
