@@ -9,7 +9,7 @@
 ---
 
 ## <!-- پرچم انگلیسی -->
-![](https://img.shields.io/badge/Language-English-blue?style=flat&logo=github) ## <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/us.svg" width="20" height="20"> About Me (English)
+![](https://img.shields.io/badge/Language-English-blue?style=flat&logo=github) <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/us.svg" width="20" height="20"> About Me (English)
 
 **Senior Web Developer (PHP & WordPress) | Webmaster | Entry-Level Network Support** 📍 *15+ years of experience | Open to remote work and freelance projects*
 
@@ -19,7 +19,7 @@ I’m passionate about clean code, performance optimization, and building system
 
 ---
 
-## 🇮🇷 درباره من (فارسی)
+## ![](https://img.shields.io/badge/%D8%B2%D8%A8%D8%A7%D9%86-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-red?style=flat) <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/ir.svg" width="20" height="20"> درباره من (فارسی)
 
 **توسعه‌دهنده ارشد وب (PHP و وردپرس) | وب‌مستر | پشتیبان شبکه (Entry-Level)** 📍 *بیش از ۱۵ سال سابقه کار | آماده همکاری به صورت ریموت (دورکاری) و پروژه‌ای*
 
