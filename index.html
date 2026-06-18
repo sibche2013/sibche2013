@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amin Arjmand | Profile</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --primary-color: #2563eb;
+            --accent-color: #3b82f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Vazirmatn', 'Inter', sans-serif;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        /* Header & Top Banner */
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: var(--text-main);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .demo-btn {
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+        .demo-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Section Cards */
+        section {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-color);
+        }
+
+        .en-section {
+            dir: ltr;
+            text-align: left;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.4rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+            color: var(--text-main);
+        }
+
+        .en-section .section-title {
+            flex-direction: row;
+        }
+        
+        .fa-section .section-title {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        .subtitle {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--text-main);
+            font-weight: 700;
+        }
+
+        td:first-child {
+            font-weight: 600;
+            background-color: #f8fafc;
+            width: 30%;
+        }
+
+        code {
+            background-color: #f1f5f9;
+            padding: 0.2rem 0.4rem;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #0f172a;
+            display: inline-block;
+            margin: 0.2rem;
+        }
+
+        /* Lists */
+        ul {
+            list-style-position: inside;
+            color: var(--text-muted);
+            margin-right: 1rem;
+        }
+        
+        .en-section ul {
+            margin-right: 0;
+            margin-left: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* GitHub Stats */
+        .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .stats-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .streak-img {
+            width: 100%;
+            height: auto;
+            margin-top: 1rem;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact-box {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .contact-box.en {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            dir: ltr;
+            text-align: left;
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                padding: 0.5rem;
+                font-size: 0.85rem;
+            }
+            h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+        <h1>👋 Hi there, I'm Amin Arjmand / سلام، من امین ارجمند هستم</h1>
+        <a href="https://demo.aminarjmand.com" class="demo-btn" target="_blank">
+            <img src="https://img.shields.io/badge/Demo%20Website-demo.aminarjmand.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+        </a>
+    </header>
+
+    <!-- About Me (English) -->
+    <section class="en-section">
+        <div class="section-title">
+            <img src="https://img.shields.io/badge/Language-English-blue?style=flat&logo=github" alt="English">
+            <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/us.svg" width="20" height="20" alt="US Flag">
+            <span>About Me (English)</span>
+        </div>
+        <div class="subtitle">Senior Web Developer (PHP & WordPress) | Webmaster | Entry-Level Network Support 📍 <i>15+ years of experience | Open to remote work and freelance projects</i></div>
+        <p>Since 2010, I’ve been working as a webmaster and full-stack web developer, specializing in PHP development and WordPress-based website design. I have successfully designed, built, and maintained a wide range of dynamic, user-friendly, and scalable websites for clients across various industries.</p>
+        <p>I’m passionate about clean code, performance optimization, and building systems that truly meet client needs. Recently in 2025, I expanded my skills into the field of computer networks by completing core certifications. While I’m still gaining hands-on experience in networking, I’m well-versed in help desk operations and basic network troubleshooting.</p>
+    </section>
+
+    <!-- درباره من (فارسی) -->
+    <section class="fa-section">
+        <div class="section-title">
+            <img src="https://img.shields.io/badge/%D8%B2%D8%A8%D8%A7%D9%86-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-red?style=flat" alt="فارسی">
+            <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/ir.svg" width="20" height="20" alt="Iran Flag">
+            <span>درباره من (فارسی)</span>
+        </div>
+        <div class="subtitle">توسعه‌دهنده ارشد وب (PHP و وردپرس) | وب‌مستر | پشتیبان شبکه (Entry-Level) 📍 <i>بیش از ۱۵ سال سابقه کار | آماده همکاری به صورت ریموت (دورکاری) و پروژه‌ای</i></div>
+        <p>از سال ۱۳۸۹ (2010) به عنوان وب‌مستر و توسعه‌دهنده فول‌استک وب، با تمرکز روی توسعه PHP و طراحی سایت‌های وردپرسی فعالیت می‌کنم. در این سال‌ها با موفقیت پروژه‌های داینامیک و مقیاس‌پذیر متعددی را برای صنایع مختلف طراحی، اجرا و پشتیبانی کرده‌ام.</p>
+        <p>علاقه‌مند به کدهای تمیز، بهینه‌سازی سرعت و ساخت سیستم‌های اختصاصی هستم. اخیراً در سال ۲۰۲۵، با گذراندن دوره‌های تخصصی، مهارت‌های خود را به حوزه شبکه‌های کامپیوتری گسترش داده‌ام. در حال حاضر آماده ورود به بازار کار شبکه، هلپ‌دسک و رفع اشکال خطاهای شبکه نیز هستم.</p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+        <div class="section-title" style="justify-content: center;">
+            <span>🛠️ Technical Skills & Tools / مهارت‌های فنی</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category / دسته‌بندی</th>
+                    <th>Technologies / فناوری‌ها</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Web Development</strong></td>
+                    <td>`PHP` `WordPress` `JavaScript` `TypeScript` `HTML5` `CSS3` `MySQL`</td>
+                </tr>
+                <tr>
+                    <td><strong>Network & Infrastructure</strong></td>
+                    <td>`Cisco CCNA` `MikroTik MTCNA` `Windows Server MCSA` `VMware ICM`</td>
+                </tr>
+                <tr>
+                    <td><strong>Network Monitoring</strong></td>
+                    <td>`SolarWinds` `OpManager` `NPM` `PRTG` `The Dude`</td>
+                </tr>
+                <tr>
+                    <td><strong>DevOps & Tools</strong></td>
+                    <td>`Git` `GitHub` `Docker` `VS Code`</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <div class="section-title" style="justify-content: center;">
+            <span>📜 Certifications / مدارک و گواهینامه‌ها</span>
+        </div>
+        <ul style="dir: ltr; text-align: left; font-family: 'Inter', sans-serif;">
+            <li><strong>CCNA</strong> - Cisco Certified Network Associate</li>
+            <li><strong>MTCNA</strong> - MikroTik Certified Network Associate</li>
+            <li><strong>MCSA</strong> - Windows Server 2019</li>
+            <li><strong>VMware ICM</strong> - Virtualization Install, Configure, Manage</li>
+            <li><strong>Network Monitoring</strong> - SolarWinds, OpManager, NPM, PRTG, The Dude <i>(i3Center Certified)</i></li>
+        </ul>
+    </section>
+
+    <!-- GitHub Stats -->
+    <section>
+        <div class="section-title" style="justify-content: center;">
+            <span>📊 GitHub Stats / آمار گیت‌هاب</span>
+        </div>
+        <div class="stats-grid">
+            <img src="https://github-readme-stats.vercel.app/api?username=sibche2013&show_icons=true&theme=vue-dark&locale=en" alt="Amin's GitHub Stats" style="width: 48%; min-width: 280px;" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sibche2013&layout=compact&theme=vue-dark&locale=en" alt="Top Langs" style="width: 48%; min-width: 280px;" />
+        </div>
+        <div style="text-align: center;">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=sibche2013&theme=vue-dark" alt="GitHub Streak" class="streak-img" />
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <div class="section-title" style="justify-content: center;">
+            <span>🎯 Contact & Opportunities / ارتباط با من</span>
+        </div>
+        <div class="contact-box en">
+            🇺🇸 I’m currently open to freelance opportunities, part-time or remote jobs in Web Development, Optimization, or Entry-level Networking. Let's connect!
+        </div>
+        <div class="contact-box" style="text-align: right; dir: rtl;">
+            🇮🇷 در حال حاضر آماده پذیرش پروژه‌های آزاد (Freelance)، پاره‌وقت یا دورکاری در زمینه‌های توسعه وب، بهینه‌سازی سایت و یا موقعیت‌های شغلی شبکه و هلپ‌دسک هستم. با من در ارتباط باشید!
+        </div>
+    </section>
+
+</div>
+
+<script>
+    // تبدیل خودکار متون داخل تکست‌های بک‌تیک به تگ کد واقعی برای زیبایی بیشتر جداول
+    document.querySelectorAll('td').forEach(td => {
+        if(td.innerHTML.includes('`')) {
+            td.innerHTML = td.innerHTML.replace(/`([^`]+)`/g, '<code>$1</code>');
+        }
+    });
+</script>
+</body>
+</html>
