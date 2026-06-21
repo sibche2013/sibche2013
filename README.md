@@ -72,3 +72,7 @@ I’m passionate about clean code, performance optimization, and building system
 
 🇺🇸 I’m currently open to freelance opportunities, part-time or remote jobs in Web Development, Optimization, or Entry-level Networking. Let's connect!  
 🇮🇷 در حال حاضر آماده پذیرش پروژه‌های آزاد (Freelance)، پاره‌وقت یا دورکاری در زمینه‌های توسعه وب، بهینه‌سازی سایت و یا موقعیت‌های شغلی شبکه و هلپ‌دسک هستم. با من در ارتباط باشید!
+
+
+---
+⭐️ *If you found this dashboard layout useful, please give this repository a star! / اگر این داشبورد برای شما مفید بود، لطفا با دادن ستاره از آن حمایت کنید!*
