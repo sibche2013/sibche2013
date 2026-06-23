@@ -1,4 +1,4 @@
-  ![pf visito](https://komarev.com/ghpvc/?username=sibche2013&color=brightgreen&label=My+GitHub+VIEW)
+  ![pf visito](https://komarev.com/ghpvc/?username=sibche2013&color=brightgreen&label=My+GitHub+View)
 
 # 👋 Hi there, I'm Amin Arjmand / سلام، من امین ارجمند هستم
 
